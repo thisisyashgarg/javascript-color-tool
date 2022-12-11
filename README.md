@@ -1,1 +1,1 @@
-# javascript-color-tool
+# Javascript Color Changing Tool
