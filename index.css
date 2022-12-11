@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+
+.conatiner{
+    padding: 0 10px;
+}
+
+.title{
+    text-align: center;
+    margin: 30px;
+    color: rgb(13,116,255);
+}
+
+label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+input[type= "text"]{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 0;
+}
+
+p{
+    margin-bottom: 8px;
+}
+
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: #0d74ff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.toggle-text {
+    font-size: 20px;
+}
+
+.toggle-btn {
+    height: 30px;
+    width: 60px;
+    background-color: rgb(159, 159, 159);
+    border-radius: 30px;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+
+.inner-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white ;
+    transition: all 250ms;
+}
+.toggle-btn.toggled > .inner-circle {
+    transform: translateX(30px);
+    background-color: #333;
+}
+
+.unselected {
+    opacity: 0.25;
+}
